@@ -1,4 +1,4 @@
-class Main {
+class Main3{
     public static void main(String[] args) {
         int a = 25;
         int b = 34;
@@ -15,5 +15,4 @@ class Main {
         else 
         System.out.println(c);
     }
-}
 }

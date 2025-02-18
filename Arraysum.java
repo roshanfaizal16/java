@@ -12,7 +12,7 @@ public class Arraysum {
           if(quo==0){
             res  = a[i]+b[i];
           }
-          else{
+          else {
             res = a[i]+b[i]+quo;
           }  
              c[i]= res%10;

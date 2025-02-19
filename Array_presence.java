@@ -1,7 +1,7 @@
-public class Greatest_sum {
+public class Array_presence {
        public static void main(String[] args) {
            int[] a ={1,1,1,0,1,1,0,1,1,0,1,1};
-           int[] b = {1,1,0 ,1};
+           int[] b = {1,1,0,1};
            int count = 0;
            int value = 1;
            boolean x = false;
@@ -10,7 +10,7 @@ public class Greatest_sum {
            for (int i = count,j=0;j<b.length;i++,j++){
            if(a[i]!=b[j]){
                   x = false;
-                  break;
+                  break; 
            }
            if(x){
             break;

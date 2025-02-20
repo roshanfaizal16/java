@@ -7,7 +7,7 @@ public class Function_basics {
         String[] name=new String[m];
         int[] ida = new int[m]; 
         System.out.print("Enter Student name:");
-        for(int i  = 0;i<m;i++){
+        for(int i  = 0;i<m;i++){ 
         name[i]= in.nextLine(); 
     }
         System.out.print("Enter student ID:");

@@ -15,8 +15,8 @@ public class Sum_diagonal {
             }
          }
          arr[n-1][m-1]=sum;
-         for (int i = 1; i <=0; i--) {
-            for (int j = m-1; j <=1; j--){
+         for (int i = 0; i<=1; i++) {
+            for (int j = i+1; j<=m-1; j++){
                 sum1+=arr[i][j];
             }
          }

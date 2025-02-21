@@ -13,7 +13,7 @@ class Method_triangle{
             for(int j =n-i;j>=0;j--){
                 System.out.print(" ");
             }
-            for(int k =1;k<=i+1;k++){
+            for(int k =1;k<=i+1;k++){  
                 System.out.print("*");
             }
             System.out.println();

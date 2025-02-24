@@ -12,7 +12,7 @@ abstract class Circle {
         System.out.print("Enter radius:");
          a = in.nextInt();
    }
-   void cal_area(){
+   protected void cal_area(){
     area = 3.14*a*a;
     System.out.println("area:"+area);
    }

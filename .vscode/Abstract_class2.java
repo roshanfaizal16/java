@@ -6,7 +6,7 @@ static int r;
 static void circle_area(){
     Scanner in = new Scanner(System.in);
 System.out.print("enter radius :");
-r = in.nextInt();
+int r = in.nextInt();
     area = 3.14*r*r;
     System.out.println("Area:"+area);
 }

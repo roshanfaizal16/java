@@ -10,12 +10,15 @@ abstract class  Final1 {
       System.out.println("Value of r:"+r);
     }
     }
-    class Final2 extends Final1{
+    final class Final2 extends Final1{
+        static void fan(){
+            System.err.println("Hello");
+        }
         public static void main(String[] args) {
-            
        Final2 m = new Final2();
        System.out.println(m.pi);
        ins();
+       fan();
         }
     }
 

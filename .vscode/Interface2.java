@@ -12,9 +12,11 @@ public class Interface2 {
     interface vehicle{
         void changegear(int n);
         void speed(int n);
+    }
+    interface vehicle1 extends vehicle{
         void brake(int n);
     }
-    class Bicycle implements vehicle{
+    class Bicycle implements vehicle1{
         int gear;
         int speed;
         public void changegear(int newgear){

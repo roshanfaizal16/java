@@ -7,7 +7,7 @@ public class Main_interface {
       light.power();
     }
 }
-class Fan implements light{
+ class Fan implements light{
     static void power(){
         System.out.println("Inside implemented class");
     }

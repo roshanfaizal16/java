@@ -28,7 +28,7 @@ public class Number_conversion {
                 m =m/2;
                 i++;
             }
-            for(int j = i-2;j>=0;j--){
+            for(int j = i-1;j>=0;j--){
                 System.out.print(res1[j]);
             }
          }

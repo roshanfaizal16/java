@@ -1,6 +1,4 @@
-
-
-public class Strong_number {
+public class Strongnumber_series {
     public static void main(String[] args) {
         digit();
     }
@@ -23,6 +21,8 @@ public class Strong_number {
     }
 }
 }
+
+
 
 
 

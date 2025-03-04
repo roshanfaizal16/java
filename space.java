@@ -1,22 +1,21 @@
 public class space {
     public static void main(String[] args) {
-        String input = "          i love java    programming ";
-        String output = reverseSentence(input);
-        System.out.println(output);
+        String str = "          i love java    programming ";
+        System.out.println(reverseSentence(str));
     }
 
-    public static String reverseSentence(String input) {
-        String[] words = input.trim().split("\\s+");
+    public static String reverseSentence(String str) {
+        String[] arr= str.trim().split("\\s+");
          
-        StringBuilder result = new StringBuilder();
-        for (int i = words.length - 1; i >= 0; i--) {
-            result.append(words[i]);
+        StringBuilder rs = new StringBuilder();
+        for (int i = arr.length - 1; i >= 0; i--) {
+            rs.append(arr[i]);
             if (i > 0) { 
-                result.append(" ");
+                rs.append(" ");
             }
         }
         
-        return result.toString();
+        return rs.toString();
     }
 }
 

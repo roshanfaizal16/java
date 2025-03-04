@@ -15,7 +15,7 @@ static void circle_peri(){
     perimeter = 2*3.14*r;
     System.out.println("Perimeter:"+perimeter);
 }
-public static void main(String[] args) {
+public static void main(string_opration[] args) {
     circle_area();
     circle_peri();
 }

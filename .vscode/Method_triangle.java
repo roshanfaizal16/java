@@ -19,7 +19,7 @@ class Method_triangle{
             System.out.println();
         }
     }
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         Method_triangle obj = new Method_triangle();
         obj.leftAngleTriangle(4);
         obj.rightAngleTriangle(4);

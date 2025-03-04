@@ -18,7 +18,7 @@ public class Add {
     }
 }
 class addition{
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         Add obj = new Add();
         obj.disp();
     }

@@ -1,5 +1,5 @@
 public class Zeroatlast {
-        public static void main(String[] args) {
+        public static void main(string_opration[] args) {
             int[] arr = {1,3,4,5,0,6,7,9,0,5,0,3};
             zeroAtLast(arr);
         }

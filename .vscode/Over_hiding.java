@@ -1,5 +1,5 @@
 public class Over_hiding {
-      public static void main(String[] args) {
+      public static void main(string_opration[] args) {
           Super m = new Sub();
           m.display();
       }

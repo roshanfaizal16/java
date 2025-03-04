@@ -37,7 +37,7 @@ class third extends second{
      int sum = c+d;
      System.out.println("Sum of both numbers:"+sum);
 }
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         third m = new third();
         m.sum();
         m.sum1();

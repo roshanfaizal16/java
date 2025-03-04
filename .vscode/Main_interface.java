@@ -1,5 +1,5 @@
 public class Main_interface {
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         Fan m = new Fan();
       m.power();
       m.time();

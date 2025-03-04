@@ -1,5 +1,5 @@
 class Ternary_operator {
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
        int max;
        int a= 10;
        int b = 35;

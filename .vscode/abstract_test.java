@@ -22,7 +22,7 @@ public class abstract_test extends outer{
         }
     }
     
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         abstract_test m = new abstract_test();
         m.outer_method();
         m.outer_disp(5, 10);

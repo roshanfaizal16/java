@@ -1,7 +1,7 @@
 
 
 public class looping {
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
      int evennum = 0;  
      int oddnum = 0;
     int[] arr = {1,2,3,4,5,6};

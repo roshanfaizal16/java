@@ -1,5 +1,5 @@
 public class Interface2 {
-        public static void main(String[] args) {
+        public static void main(string_opration[] args) {
         Bicycle m = new Bicycle();
         m.changegear(4);
         m.speed(40);

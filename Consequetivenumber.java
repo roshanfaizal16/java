@@ -1,7 +1,7 @@
 
 
 public class Consequetivenumber {
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         int[] arr = {1,1,0,1,1,0,0,1,1,1,1,0};
         numberseries(arr);
     }

@@ -1,5 +1,5 @@
 public class Shift_elements{
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         int[] arr= {10,20,5,3,2};
         int n = 3;
         shift(arr, n);

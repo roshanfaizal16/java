@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class Double_array {
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         array();
     }
     static void array(){

@@ -1,5 +1,5 @@
 public class Maxvaluearray {
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         int[] num = {1,2,3,4,5};
         firstMaxValue(num);
         secondMaxValue(num);

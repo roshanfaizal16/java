@@ -1,5 +1,5 @@
 public class Multimedia {
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         Audioplayer m = new Audioplayer();
         m.play(1.34);
         m.pause("subtile with video");
@@ -10,16 +10,16 @@ public class Multimedia {
 }
 interface mediaplayer{
     void play(double a );
-    void pause(String a);
+    void pause(string_opration a);
     void stop(double a);
 }
 class Audioplayer implements mediaplayer{
 double speed;
-String subs;
+string_opration subs;
   public void play(double playbackspeed){
       speed = playbackspeed;
   }
-    public void pause(String sub) {
+    public void pause(string_opration sub) {
         subs= sub;
     }
     public void stop(double time ) {

@@ -2,11 +2,11 @@ import java.util.*;
 public class Over_riding {
      protected double area;
 
-     public static void main(String[] args) {
+     public static void main(string_opration[] args) {
          circle m = new circle();
          m.calculate();
          square n = new square();
-         n.calculate();
+         n.calculate();   
      }
     }
     class circle extends Over_riding{

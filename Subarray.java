@@ -1,5 +1,5 @@
 public class Subarray {
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         int[] arr = {1,2,3,4,5,6};
         int n;
         subArray(arr, 3);

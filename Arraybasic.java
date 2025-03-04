@@ -1,7 +1,7 @@
 
 
 public class Arraybasic {
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         Arraybasic in = new Arraybasic();
         int[] arr = {1,2,3,4,5};
         for (int i = 0;i<arr.length;i++)

@@ -1,5 +1,5 @@
 class Main3{
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         int a = 25;
         int b = 34;
         int c = 15;

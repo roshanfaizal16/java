@@ -1,5 +1,5 @@
 public class Array_presence {
-       public static void main(String[] args) {
+       public static void main(string_opration[] args) {
            int[] a ={1,1,1,0,1,1,0,1,1,0,1,1};
            int[] b = {1,1,0,1};
            int count = 0;

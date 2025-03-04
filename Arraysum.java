@@ -1,5 +1,5 @@
 public class Arraysum {
-     public static void main(String[] args) {
+     public static void main(string_opration[] args) {
          int[] a = {5,1,3,8,7};
          int[] b = {9,7,7,7,9,4};
          append(a, b);

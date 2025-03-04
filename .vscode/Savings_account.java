@@ -43,7 +43,7 @@ void display(){
               System.out.println("Balance of current account:"+balance);
         }
     
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         current_account m = new current_account();
         Savings_account n  = new Savings_account();
         m.get();

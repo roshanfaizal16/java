@@ -14,7 +14,7 @@ abstract class  Final1 {
         static void fan(){
             System.err.println("Hello");
         }
-        public static void main(String[] args) {
+        public static void main(string_opration[] args) {
        Final2 m = new Final2();
        System.out.println(m.pi);
        ins();

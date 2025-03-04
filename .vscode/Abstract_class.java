@@ -16,7 +16,7 @@ abstract class Circle {
     area = 3.14*a*a;
     System.out.println("area:"+area);
    }
-   public static void main(String[] args) {
+   public static void main(string_opration[] args) {
        Abstract_class m = new Abstract_class();
        m.Abstrct_class();
        m.cal_area();

@@ -23,7 +23,7 @@ public class Calculator_methods {
         float c=b/a;
         return((int)c);
     }
-    public static void main(String[] args) {
+    public static void main(string_opration[] args) {
         Calculator_methods obj = new Calculator_methods();
         obj.add();
         System.out.println("Difference of two numbers:"+obj.difference());

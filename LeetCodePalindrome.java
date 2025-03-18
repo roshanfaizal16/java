@@ -8,8 +8,6 @@ public class LeetCodePalindrome {
             int result = 0;
             while(x>0){
                 int digit = x%10;
-                if(result >Integer.MAX_VALUE/10)
-                return false;
                 result  = result *10+digit;
                 x/=10;
             }
